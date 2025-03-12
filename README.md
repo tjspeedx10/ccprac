@@ -22,9 +22,6 @@ This project demonstrates how to create a scalable file storage solution using A
    - Download or clone the repository.
    - Run the shell scripts from the `cli/` folder.
 
-## Demonstration Video
-[Watch the demonstration](videos/project-demo.mp4)
 
-## License
-This project is licensed under the MIT License.
+
 
