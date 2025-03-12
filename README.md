@@ -1,27 +1,34 @@
-# Scalable File Storage System Using Azure Blob Storage
+# Creating and Managing Virtual Machines in Azure
 
 ## Project Overview
-This project demonstrates how to create a scalable file storage solution using Azure Blob Storage. The solution includes a set of PowerShell scripts and an optional CLI tool for interacting with Azure Blob Storage to upload, download, and list files.
+This project provides a tutorial and step-by-step guide on how to create and manage Virtual Machines (VMs) in Azure. It includes both a manual creation walkthrough using the Azure Portal and an automated solution using PowerShell scripts. The project aims to help users quickly set up and configure VMs in Azure for various purposes.
 
-## Prerequisites
-- Azure Subscription
-- Azure Storage Account with Blob Storage
-- PowerShell or Azure CLI installed
+## Technologies Used:
+- **Azure Virtual Machines**: For hosting virtualized computing environments in Azure.
+- **PowerShell**: For automating VM creation and management.
+- **Azure Portal**: The graphical user interface for managing Azure resources.
 
-## Setup Instructions
+## Instructions:
 
-1. **Create an Azure Storage Account**:
-   - Log in to Azure Portal.
-   - Create a new Storage Account and Blob Container.
+1. **Using the Azure Portal**:
+   - Follow the steps outlined in the **Demonstration** section to create a VM using the Azure Portal.
 
-2. **PowerShell Scripts**:
-   - Download or clone this repository.
-   - Open PowerShell and execute the scripts from the `scripts/` folder.
+2. **Automated Creation Using PowerShell**:
+   - Download the `scripts/vm-creation-powershell.ps1` script and execute it after logging in to your Azure account.
 
-3. **Using the CLI Tool**:
-   - Download or clone the repository.
-   - Run the shell scripts from the `cli/` folder.
+## Screenshots:
+- ![Azure Portal VM Creation](images/azure-portal-vm-creation.png)
+- ![VM Networking Setup](images/vm-networking-setup.png)
 
+## Demonstration Video:
+[Watch the demonstration](videos/vm-creation-demo.mp4)
+
+
+
+
+
+  
+   
 
 
 
